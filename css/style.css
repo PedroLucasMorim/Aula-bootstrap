@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600&display=swap');
+
+*{
+    font-size: 18px;
+    font-family: 'Cormorant Garamond', serif;
+}
+
+
+header{
+    height: 10vh;
+}
+
+body{
+background-image: url(/img/pepe-wizard-v0-5p50w31sv1ra1.webp) ;
+background-size: cover;
+background-repeat: no-repeat;
+}
+
+footer{
+    background-color: rgb(5, 5, 53);
+}
+
+.footer-pt1{
+    color:rgb(72, 72, 194);
+}
+.footer-pt2{
+    color:rgb(72, 72, 194);
+}
+
+.nav-link{
+    color: rgb(17, 17, 182);
+}
+
+.caroulsel-inner{
+    height: 90vh;
+}
+
+.icon{
+    font-size: 3rem;
+    color:rgb(72, 72, 194);
+}
+
+.icon:hover{
+    color: rgb(81, 8, 14);
+}
+
+@media screen and (max-width:768px) {
+
+    *{
+        font-size: 14px;
+    }
+
+    header{
+        height: 100%;
+    }
+    .caroulsel-inner{
+        height: 100%;
+    }
+    
+}
